@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(8, 247, 40, 0.226);
+    border-radius: 3px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.hobby-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.hobby-image {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.hobby-description {
+    flex: 1;
+}
